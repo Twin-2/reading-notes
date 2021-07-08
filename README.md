@@ -6,3 +6,4 @@ Code Fellows reading notes
 
 ### Day 1
 
+## Things I want to know more about
