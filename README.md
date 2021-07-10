@@ -12,6 +12,16 @@ immutability- not changing the original values of objects/arrays, instead creati
 components = large building blocks of code.
 state = instance of each component.
 class = 
+call variables in JSX by using {}. You can put any JS in {}.
+if an element is empty, use '/' to close it right away. Or you can have children inside it. Ex:
+> const element = <img src={user.avatarUrl} />;
+> const element = (
+  <div>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </div>
+);
+
 
 
 ## Things I want to know more about
