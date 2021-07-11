@@ -9,8 +9,9 @@ Codied definition of a compnent from the [Reading](https://www.tutorialspoint.co
 > A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
 > A component is a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities. It has an obviously defined interface and conforms to a recommended behavior common to all components within an architecture.
 > A software component can be defined as a unit of composition with a contractually specified interface and explicit context dependencies only. That is, a software component can be deployed independently and is subject to composition by third parties.
+
 Paraphrased definition in my own workds:
-> A component is the building block of a webpage. Each component encompasses one complete aspect and is designed to be easily reusable. Components can be treated like objects but are often larger files with potentially more content in them. 
+A component is the building block of a webpage. Each component encompasses one complete aspect and is designed to be easily reusable. Components can be treated like objects but are often larger files with potentially more content in them. 
 2. What are the charactistics of a component?
   Resuability,replaceable, not context specific, extensible, encapsulated, independent.
 3. What are the advantages of using component based architecture?
