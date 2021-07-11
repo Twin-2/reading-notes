@@ -4,6 +4,16 @@ Code Fellows reading notes
 ## Code 301 - *Intermediate Software Development*
 > Nothing worth doing is ever easy ~Theadore Roosevelt
 
+## Things I want to know more about
+syntax and structure of react compnents. I feel that I am missing something on the syntax. I don't know how to identify what is a keywork.
+
+Which elements are the props? Is it text after render?
+
+Do all components extend React.component?
+
+What is the difference between render and return in a React component?
+
+
 ### Day 1
 
 #### Pre reading on React
@@ -74,11 +84,3 @@ Strategy for identifying where state should go:
 
 
 
-## Things I want to know more about
-syntax and structure of react compnents. I feel that I am missing something on the syntax. I don't know how to identify what is a keywork.
-
-Which elements are the props? Is it text after render?
-
-Do all components extend React.component?
-
-What is the difference between render and return in a React component?
