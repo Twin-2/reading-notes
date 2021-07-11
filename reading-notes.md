@@ -60,6 +60,12 @@ When building large products, start at the bottom.
 
 When building small projects, start at the top.
 
+Strategy for identifying where state should go:
+- Identify every component that renders something based on that state.
+- Find a common owner component (a single component above all the components that need the state in the hierarchy).
+- Either the common owner or another component higher up in the hierarchy should own the state.
+- If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
+
 
 
 
