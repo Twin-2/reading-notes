@@ -41,6 +41,12 @@ Changing a react function to a react class:
 - Mounting and unmounting: the first rendering to the DOM is mounting and taking it off the DOM is unmounting.
   - componentDidMount(), componentWillUnmount().
 
+### React Handling Events
+
+It is important to "bind" this in callback function so that this is not undefined. Use this._____.bind
+
+
+
 
 
 
