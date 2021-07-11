@@ -38,8 +38,8 @@ Changing a react function to a react class:
 4. Replace props with this.props in the render() body.
 5. Delete the remaining empty function declaration.
 
--Mounting and unmounting: the first rendering to the DOM is mounting and taking it off the DOM is unmounting.
- -componentDidMount(), componentWillUnmount().
+- Mounting and unmounting: the first rendering to the DOM is mounting and taking it off the DOM is unmounting.
+  - componentDidMount(), componentWillUnmount().
 
 
 
