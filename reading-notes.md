@@ -18,6 +18,7 @@ if an element is empty, use '/' to close it right away. Or you can have children
 > const element = (\<div> \<h1>Hello!</h1> \<h2>Good to see you here.</h2> \</div>);
 elements are the smallest compnent of react. think of them like objects.
 **Think about how the UI should look at any one poipnt, not how you want to change it.**
+The 
 
 ## Things I want to know more about
 syntax and structure of react compnents. I feel that I am missing something on the syntax. I don't know how to identify what is a keywork.
