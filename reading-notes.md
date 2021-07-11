@@ -43,7 +43,24 @@ Changing a react function to a react class:
 
 ### React Handling Events
 
+Event listeners are typed in camel case in JSX
+
 It is important to "bind" this in callback function so that this is not undefined. Use this._____.bind
+
+### Lists and Keys
+
+Put the keps in the map() function.
+
+### Thinking in React
+
+When building apps in react, start by building a **static** model. then add interactibility later. 
+  - Do not use state for the static model, use only props instead
+
+When building large products, start at the bottom.
+
+When building small projects, start at the top.
+
+
 
 
 
