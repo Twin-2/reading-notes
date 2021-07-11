@@ -11,7 +11,7 @@ Codied definition of a compnent from the [Reading](https://www.tutorialspoint.co
 > A software component can be defined as a unit of composition with a contractually specified interface and explicit context dependencies only. That is, a software component can be deployed independently and is subject to composition by third parties.
 
 Paraphrased definition in my own words:
-  A component is the building block of a webpage. Each component encompasses one complete aspect and is designed to be easily reusable. Components can be treated like objects but are often larger files with potentially more content in them. 
+> A component is the building block of a webpage. Each component encompasses one complete aspect and is designed to be easily reusable. Components can be treated like objects but are often larger files with potentially more content in them. 
 
 2. What are the charactistics of a component?
   Resuability,replaceable, not context specific, extensible, encapsulated, independent.
