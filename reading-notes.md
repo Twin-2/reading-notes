@@ -76,6 +76,9 @@ Strategy for identifying where state should go:
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
 
+### Adding dynamic levels to your code
+
+you can make things \(like className) dynamic by creating a new object withing the function and do something like += to the string that is it's name. 
 
 
 
