@@ -13,6 +13,8 @@ Do all components extend React.component?
 
 What is the difference between render and return in a React component?
 
+Do classes have thier own scope just like function keyword?
+
 
 ### Day 1
 
@@ -81,7 +83,54 @@ Strategy for identifying where state should go:
 you can make things \(like className) dynamic by creating a new object withing the function and do something like += to the string that is it's name. 
 
 
+## Day 1 lecture
 
+### Backgrounds
+
+- 7-8 years teaching, 6 years at CF
+- No college education, went through "imposter syndrome"
+
+
+- Software engineer: these skills are learned in 301
+- 301 about the usage of tools, but you have to learn how to use said tools.
+- NOT ABOUT being an excilent programmer, About being an engineer, understanding architecture.
+
+- Lectures: want to grasp core concepts to set up for lab and set up for lab.
+
+CF Mission: tech skills for a bette life, for a better community, and for a better world.
+- other backgrounds are good in coding. 
+- learn to translate those skills into this new environemnt
+
+CF Mission: We guide people from all backgrounds to change thier lives through fast-pasted, career-focused education. We shape passionate learners with immersive training to meet industry needs and improve diversity. 
+- is fast paced
+- passionate learners, sharing with others
+
+### React lecture
+
+**Readings are for surface level understanind**
+
+#### Daily structure
+
+1. Morning
+- Warm up 5-10min
+- Code review 15-45min
+- Main topic ~2 hours
+- Lab prep 5-10min
+
+2. Afternoon
+- 1-2/3pm for Code challenge
+- 2/3-6pm lab **priority**
+
+## React JS
+
+React is a **library** but acts somewhat like a framework
+- Declaarative programming: declare something and it does it.
+- Component based
+
+- Extending classes
+  - must use super(props) in new constructor function to call in previous constructor function
+
+Node.js runs off the global object not the window object.
 
 
 
