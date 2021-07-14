@@ -24,6 +24,7 @@ Questions:
 4. What is the purpose of a key?
    - to let react keep track of the items as the change. 
 
+
 1. What is the spread operator?
    - it is (...) and is similar to a rest parameter.
 2. List 4 things that the spread operator can do.
@@ -34,6 +35,7 @@ Questions:
    -const moreFood = [banana, apple, ...foodArray]
 5. Give an example of using the spread operator to combine two objects into one.
    - obj1 = {}, obj2 = {}, newObj = {...obj1, obj2}
+
 
 1. In the video, what is the first step that the developer does to pass functions between components?
    - he has to create a function wherever the state that we want to change is. 
