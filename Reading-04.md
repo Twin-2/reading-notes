@@ -4,12 +4,36 @@ Conditional operator
 
 forms have to update a state as that is where we have dynamic data in React.
 
-So we have to make sure to have a setState method and any other methods mush work through that.
+So we have to make sure to have a setState method and any other methods must work through that.
+
+
+# Class 4 Lecture Dynamic forms
+package json hold meta info, automation scripts, and dependancies.
+
+**Everything is a form** Login pages are forms, FB posts ar forms...
+
+Purpose of forms: submit information. In react that would mean changing state. 
+
+In reaqct you want to do two things with forms:
+1. update state on submit
+2. update state as the form is being changed. 
+
+input type submit is a button that submits your form. 
+
+you can set the form name to the same as the state name and then your setState function can look at the forme name to pick the state
+
+
+
 
 ## Things I want to know more about
+Why do we need to update on submit with a form if we are already updating state as we change?
+
+- numArray.sort((a, b) => a - b); // For ascending sort
+- numArray.sort((a, b) => b - a); // For descending sort
+
+
 
 ## Questions
-
 React Froms
 1. What is a ‘Controlled Component’?
    - It is a component that has an event form in it and also controlls the state based on that form. 
