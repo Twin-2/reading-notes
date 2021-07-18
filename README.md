@@ -1,11 +1,12 @@
 # Reading Notes
-Code Fellows reading notes. The files within this folder are all my reading notes and assignments associated with those readings. 
+This is the Reading Repository for my Code Fellows Journey. 
 
-## Code 301 - *Intermediate Software Development*
-> Nothing worth doing is ever easy ~Theadore Roosevelt
+Below you will find links to the Markdown files for each classes reading notes.
 
-
-## Things I want to know more about
-syntax and structure of react compnents. I feel that I am missing something on the syntax. I don't know how to identify what is a keywork.
-Which elements are the props? Is it text after render?
-Do all components extend React.component?
+## Code 301
+- [Reading-01](301/Reading-01.md)
+- [Reading-02](301/Reading-02.md)
+- [Reading-03](301/Reading-03.md)
+- [Reading-04](301/Reading-04.md)
+- [Reading-05](301/Reading-05.md)
+- [Reading-06](301/Reading-06.md)
