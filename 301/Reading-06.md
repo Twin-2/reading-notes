@@ -22,7 +22,7 @@ Node
   - npm install within the root folder will install all node_modules
 
 Node and the Server
-- node allows for higher performance and can help to stop site crashes by itssingle threaded, even driven nature
+- node allows for higher performance and can help to stop site crashes by its single threaded, event driven nature
 - node combines callbackf functions into server requests to keep a single thread going. 
 
 **Node is best for apps that want some real-time interaction**
@@ -89,6 +89,77 @@ Pair Programming
     - Two people work together to produce code faster and more accurately through communication and collaboration. 
 
 
+# Class 6 Lecture
+We are going to talk about what the internet is ans how it works so that we can apply code to make things happen.
+
+## What is the internet?
+Client: request or give info
+- not ALWAYS the front end. It could be your back end requesting info from another server
+Server: serve or give info
+
+CLient server architecture
+- HTTP protocol: hypertext transfer protocol
+
+Requests: an object with the following parts
+- method: restful methods
+  - Get, Post (save), Put (something you want to change), ot Delete
+- body
+  - mostly involves Post and Put.
+  - 
+- headers
+  - like the package JSON
+  - META info: authorization, keys, cookies, IP info...
+  - Authorization and authentication
+
+Response
+- status: did this work or not
+    - 200: that worked, 404: not found, 500: server error...
+- Body: The data. The thing yuo get back.
+- Header: more meta info
+
+API: aplication programming interface
+- and interface that helps you program
+- **web** API's help us get data on the internet
+
+HTTP status codea can be found at http.cat
+
+Tody we come into asyncronus programminng
+- 
+
+Promise is an object with 3 states
+- resoveled = .then
+- rejected = .catch
+- pending = while waiting
+
+axios is a request tools
+
+superagent is Brian's favorite
+
+## Building a front end that can talk to a backend
+In our react app we need state that we will modify to input data to send to the server.
+
+NPM i axios
+
+create a method of our class that actually runs the request
+
+Every API structures the request different
+
+anatomy of a URL (look it up)
+- '?' seperate query strings or key value pairs
+
+process.env = in React these are dev specific and hiden from others.
+
+you often have to install dotenv  
+
+
+
+
 ## Things I want to know more about
 API's.
+
 The concept of a server. There is so much on the back end that is all theoredical and I can't see so it is hard for me to understand. I am a very visual learner so I think this topic will be hard for me. 
+
+Where is the Server? The cloud?
+
+Is a query the same as the req/res cyyle that we talk about?
+- very similar but it is different
