@@ -22,6 +22,7 @@ URL's are esentiall requests for direction and/or permission.
     - deletes or removes info from a location.
 7. What does PATCH do?
     - a partial update of info.
-
+    
+All API keys obtained.
 
 ## things I want to know more about.
