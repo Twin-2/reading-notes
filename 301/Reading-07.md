@@ -6,6 +6,48 @@ Two computer can talk to each other easily. Multiple can even talk easily if all
 
 URL's are esentiall requests for direction and/or permission.
 
+# Class 7 lecture
+the front end is a consumer of the backend. The backend is a provider of info. 
+
+What are other tools to talk with the backend?
+
+A server needs to: capture a req, build a res, send res to client.
+    - servers are not built based on a front end. 
+    - a request needs to match the backend capture.
+
+Server Model:
+    - paper notes
+
+Axios is a tool to make requests.
+
+the server can be completely seperate from the client. **You do not need to have the front built before the back**
+
+## Tools
+
+node.js:
+    - not ousing a browser.
+    - REPL: read evaluate print Loop
+
+EXPRESS.JS
+    - gives us access to a bunch of guides
+
+API vs web server
+    - web servers give out data
+    - API sends out infor that anothe client can use to program.
+    - Our API can send a request to another API to get data to send back to our front end
+
+Curl- comand line URL request
+
+Postman: tool for making requests to a server
+    - used for testing, making sure it can work.
+
+Swagger inspector: tool for making requests to backend
+
+in a URL the ? denotes a **query string**, which are key value pairs.
+    - use req.query.___ name of the query key in the URL
+    - req.query returns the whole query **object**
+    
+
 ## Questions
 
 1. Who is Roy Fielding?
