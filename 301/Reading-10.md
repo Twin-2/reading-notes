@@ -1,3 +1,4 @@
+
 # Class 10 Pre Reading
 
 
@@ -10,7 +11,7 @@ Call stack
 3. What does LIFO mean?
     - Last in, First out. The priciple by which the call stack operates functions.
 4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
-    - 
+    - ![class10 pre reading](https://user-images.githubusercontent.com/81482156/126739924-ba33dd4f-f931-43c7-891a-403ac73d4d8c.PNG)
 6. What causes a Stack Overflow?
     - when the browser hits the maximum number of call on its stack. This can be done with functions that call themselves or otherwise have no end point.
 
