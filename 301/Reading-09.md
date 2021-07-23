@@ -28,4 +28,44 @@ Node.js
 4. What do we have to do to make a module available?
     - module.export
 
+
+# class 9 lecture
+
+Promises:
+
+await axios is NOT a promise
+
+axios.get with .then is a promise function.
+
+a promise is an envalope for data
+
+state of a promise:
+- 3 states: 
+    - pending
+    - resolved .then to open -> data
+    - rejected .catch to open -> error messeges
+- each state is an envalope
+
+## Node.js Modules
+10:28
+
+module.exports object is how you pass things around
+- this is the same as export default
+
+require(/path) is the same as import
+
+app.use = is a middleware function
+
+## Lifecycle methods
+
+componentDidMount: ass soon as the component is laoded
+
 ## Things I want to know more about
+
+res.send with .then statements? so do you need a res.send to get info back to the client?
+
+await could be used for a really complicated normal function not just axios.get, right?
+
+single thread?
+
+SRP within the context of our lab
