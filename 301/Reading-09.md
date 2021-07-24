@@ -69,3 +69,6 @@ await could be used for a really complicated normal function not just axios.get,
 single thread?
 
 SRP within the context of our lab
+
+Minification:
+Obfustation
