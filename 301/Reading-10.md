@@ -28,6 +28,28 @@ Error Messeges
 6. What does the word ‘debugger’ do in your code?
     - debugger in the code does nothing but the idea is addinga  statement like console.log so that you can check that sections of your code are working properly.
 
+# Class 10 lecture
+Persistance
+- local storage: per browser per user
+- mongoDB is a persistance layer
+    - document based storage system
+
+**LAMP stack**
+
+MongoDB is the DB. mongoose allows us to talk to it.
+
+Error handling
+- app.use('*', errorHandler)
+- the use is a global use. the * is for any route.
+- use this at the end of your routes.
+
+time stamping us useful
+- use Date.now()
+
+## Cache
+- create a module that is empty: module.exports = {};
+- import empty module.
+
 ## Things I want to know more about
 How a single threaded call stack handles async functions.
 Other debugger phrases.
