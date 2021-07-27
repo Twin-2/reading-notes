@@ -47,5 +47,51 @@ Authorization flow:
 7. What is Resource Owner Password Flow?
 - this is true username and passwork sign on.
 
-### Things i want to know more about
+# Class 11 Lecture auth
 
+Auth0 is a very common application for authorization
+- quick login with other apps (like FB or Google)
+
+Authorization can be thought of as an arcade token that allows us to access only some stuff.
+
+Front end -> BE -> Auth0 -> BE -> FE
+- on a 'req' there is authorization in the header
+
+Auth0 != OAuth
+- 1st is a tool 2nd is the theory
+- the allow callback URI is where you go after loggin 
+
+easy was to test a server is to use 'curl'
+
+JWT:
+- JSON web token
+- need to install jsonwebtoken
+- used to house info about user (token)
+    - holds authorization
+
+JWKS:
+- install JWKS
+- used by Auth0
+- generates a secret key (signin keys)
+- copy/paste usage from documentation
+- copy/paste domain from Auth0 into usage documentation
+
+The front end needs to send the authorization key for the BE to split
+
+User is stored at the global level so we need to creata provider at the index.js
+- import auth0provider from '@auth0/auth0-react
+- props of the Auth0Privider comp
+    - domain, clientID, redirectUri
+
+
+
+
+
+### Things i want to know more about
+How doe the FE know what to pass in the authorization?
+
+object destructuring
+
+fucntional components
+
+  
