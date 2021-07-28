@@ -38,5 +38,22 @@ Restful API with node.js
 8. What is the difference between a status 200 and a status 201?
     - 201 means successful creation and is more specific than 200.
 
+
+# Class 13 lecture
+
+## Put and Post
+
+Post request: add content
+- typing into a url can only GET data
+- when making a post or put request, you must parse the req body. app.use(express.json()) makes this work
+- req.body comes as json data
+- axios has documentation onhow to structure the body of a post request
+
+** you need to have app.use(express.json()) in order for Put/Post to work** 
+
+the shape of the data that is being sent must be the **exacpt** same as the schema
+
 ## Things I want to know more about
 
+- how do we attach info to the body?
+- why do you have to use express.json? it parses body back into a regular object
