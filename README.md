@@ -20,3 +20,5 @@ Libraries: object libraries
 - [Reading-11](301/Reading-11.md)
 - [Reading-12](301/Reading-12.md)
 - [Reading-13](301/Reading-13.md)
+- [Reading-14](301/Reading-14.md)
+- [Project-kickoff](301/Project-kickoff.md)
