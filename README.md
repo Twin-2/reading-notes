@@ -3,8 +3,6 @@ This is the Reading Repository for my Code Fellows Journey.
 
 Below you will find links to the Markdown files for each classes reading notes.
 
-## Things I want to know more about
-Libraries: object libraries
 
 ## Code 301
 - [Reading-01](301/Reading-01.md)
