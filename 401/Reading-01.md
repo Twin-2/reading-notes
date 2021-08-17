@@ -91,6 +91,7 @@ could we use a factory concept in the srver.js?
 2. Describe (in plain English) what Array.reduce() does
     - similar to array.map reduce looks at a group (array) and for each item will run a function on it. The difference is that rather than returning a new array, it can return the product of your function in any form or shape that you want.
 3. Provide code snippets showing how to use superagent() to fetch data from a URL and log the result
+    - answer for questions 3,4, and 5 is the [picture](https://www.npmjs.com/package/superagent)
 4. With normal Promise .then() syntax
 5. Again with async / await syntax
 
