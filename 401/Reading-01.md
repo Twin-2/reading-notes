@@ -1,3 +1,4 @@
+
 # Lecture 01
 
 CF vision - tech skills for a better life, for a better community, for a better world. 
@@ -90,10 +91,12 @@ could we use a factory concept in the srver.js?
 2. Describe (in plain English) what Array.reduce() does
     - similar to array.map reduce looks at a group (array) and for each item will run a function on it. The difference is that rather than returning a new array, it can return the product of your function in any form or shape that you want.
 3. Provide code snippets showing how to use superagent() to fetch data from a URL and log the result
-
 4. With normal Promise .then() syntax
-
 5. Again with async / await syntax
+
+
+![superagent demo](https://user-images.githubusercontent.com/81482156/129644852-32ffa4cb-44e7-4a0b-a2f0-827ee5f22dbf.PNG)
+
 
 6. Explain promises as though you were mentoring a Code 301 level student
     - a Promise is just that, a Promise, to give some data at a later point. When you use a promise, in order to 'cash-in' on that promise, you need to use the syntax '.then' to open the Promise as resolved or '.catch' to poen the Promise as rejected. 
