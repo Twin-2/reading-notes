@@ -1,5 +1,7 @@
 # class 7 Pre reading
 
+[Back to menu](../README.md)
+
 I was unable to access the first reading article due to not having a subscription to the NYT. The article is moved and no longer free to access.
 
 Two computer can talk to each other easily. Multiple can even talk easily if all on the same server. But HTTP becomes a lot more helpful once you have a lot of computers on a lot of servers talking to each other. 

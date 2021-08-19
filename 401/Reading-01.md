@@ -1,6 +1,8 @@
 
 # Lecture 01
 
+[Back to menu](../README.md)
+
 CF vision - tech skills for a better life, for a better community, for a better world. 
 
 CF mission- guide people from all backgrounds to change thier lives through fast-paced career focused education, to meet industry needs. 
@@ -72,7 +74,7 @@ Context API
 
 Redux - state management tool
 
-TDD - test driven development
+TDD - test driven development. RGR => red green refactor
 
 
 

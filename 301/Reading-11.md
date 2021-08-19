@@ -1,5 +1,7 @@
 # Pre class 10 reading
 
+[Back to menu](../README.md)
+
 Authorization is dificult to manage in todays technology where people might need to bounce back and forth between multiple application needing idividual sign ons.
 
 OpeN Authorization (oauth) allows users to log on once and acces multiple areas of content.
