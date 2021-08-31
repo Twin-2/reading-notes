@@ -27,3 +27,5 @@ Below you will find links to the Markdown files for each classes reading notes.
 - [Reading-02](401/Reading-02.md)
 - [Reading-03](401/Reading-03.md)
 - [Reading-04](401/Reading-04.md)
+- [Reading-05](401/Reading-05.md)
+- [DS&A-1](401/DS&A-1.md)
